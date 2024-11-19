@@ -1,0 +1,478 @@
+Script started on 2024-11-19 01:23:15+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="166" LINES="35"]
+[0;32m@abby-973 [0m➜ [1;34m/workspaces/project-2-abby-973/WarehouseFSMAbby [0;36m([1;31mmain[0;36m) [0m$ java [Kc WareContext.java
+[0;32m@abby-973 [0m➜ [1;34m/workspaces/project-2-abby-973/WarehouseFSMAbby [0;36m([1;31mmain[0;36m) [0m$ java Ware [KContext
+calling constructor
+In WareContext constructor
+Look for saved data and  use it? (Y|y)[es] or anything else for no
+n
+Constructor Complete
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+1
+Please enter the client's first name:
+C1
+Please enter the client's last name:
+C1lastname
+Please enter the clients email:
+c1@gmail.com
+Please enter the client's address:
+123 3rd Street Avon, MN
+Please enter the client's phone number:
+1234567890
+
+ Client Added:
+Client{First Name:'C1', Last Name:'C1lastname', Email:'c1@gmail.com', Client ID:'C1', Address:'123 3rd Street Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Enter command:8 for help
+1
+Please enter the client's first name:
+C2
+Please enter the client's last name:
+C@ 2lastname
+Please enter the clients email:
+C@@ 2  2@gmail.com
+Please enter the client's address:
+2148 5th rd  st Avon, MN
+Please enter the client's phone number:
+3248578899
+
+ Client Added:
+Client{First Name:'C2', Last Name:'C2lastname', Email:'C2@gmail.com', Client ID:'C2', Address:'2148 5th st Avon, MN', Phone Number:'3248578899', Balance:'0.0'}
+Enter command:8 for help
+1
+Please enter the client's first name:
+C3
+Please enter the client's last name:
+C3lastname
+Please enter the clients email:
+C3@outlook.com
+Please enter the client's address:
+43 5 Hwy 5, St.Joe, MN
+Please enter the client's phone number:
+2395887580
+
+ Client Added:
+Client{First Name:'C3', Last Name:'C3lastname', Email:'C3@outlook.com', Client ID:'C3', Address:'43 Hwy 5, St.Joe, MN', Phone Number:'2395887580', Balance:'0.0'}
+Enter command:8 for help
+1
+Please enter the client's first name:
+C4
+Please enter the client's last name:
+C4lastname
+Please enter the clients email:
+c5 4@gmail.com
+Please enter the client's address:
+3579 6th ave St. Cloud. k,  , MN
+Please enter the client's phone number:
+4358975588
+
+ Client Added:
+Client{First Name:'C4', Last Name:'C4lastname', Email:'c4@gmail.com', Client ID:'C4', Address:'3579 6th ave St. Cloud, MN', Phone Number:'4358975588', Balance:'0.0'}
+Enter command:8 for help
+1
+Please enter the client's first name:
+C5
+Please enter the client's last name:
+C5lastname
+Please enter the clients email:
+c5@g stclouods   dstate.edu
+Please enter the client's address:
+234 5th ave Avon, N MN
+Please enter the client's phone number:
+9 0987654321
+
+ Client Added:
+Client{First Name:'C5', Last Name:'C5lastname', Email:'c5@stcloudstate.edu', Client ID:'C5', Address:'234 5th ave Avon, MN', Phone Number:'0987654321', Balance:'0.0'}
+Enter command:8 for help
+7
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+2
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+1
+Enter name
+P1
+Enter price
+1
+Enter quantity
+10
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $1.00, Quantity in Stock: 10}
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P2
+Enter price
+2
+Enter quantity
+20
+Product{Product ID: 'P3', Name: 'P2', Sale Price: $2.00, Quantity in Stock: 20}
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P3
+Enter price
+3
+Enter quantity
+30
+Product{Product ID: 'P5', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 30}
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P4
+Enter price
+4 
+Enter quantity
+40
+Product{Product ID: 'P7', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 40}
+Add more products? (Y|y)[es] or anything else for no
+y
+Enter name
+P5
+Enter price
+5
+Enter quantity
+50
+Product{Product ID: 'P9', Name: 'P5', Sale Price: $5.00, Quantity in Stock: 50}
+Add more products? (Y|y)[es] or anything else for no
+n
+Enter command:6 for help
+6
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+4
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+2
+Product{Product ID: 'P1', Name: 'P1', Sale Price: $1.00, Quantity in Stock: 10}
+Product{Product ID: 'P3', Name: 'P2', Sale Price: $2.00, Quantity in Stock: 20}
+Product{Product ID: 'P5', Name: 'P3', Sale Price: $3.00, Quantity in Stock: 30}
+Product{Product ID: 'P7', Name: 'P4', Sale Price: $4.00, Quantity in Stock: 40}
+Product{Product ID: 'P9', Name: 'P5', Sale Price: $5.00, Quantity in Stock: 50}
+
+  There are no more products 
+
+Enter command:8 for help
+6
+Input userId
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+5
+The product: P1 Product quantity: 5
+Enter command:8 for help
+4
+Enter product id
+5
+How many would you like?
+5
+The product: P3 Product quantity: 5
+Enter command:8 for help
+4
+Enter product id
+9
+How many would you like?
+5
+The product: P5 Product quantity: 5
+Enter command:8 for help
+5
+The product: P1 Product quantity: 5
+The product: P3 Product quantity: 5
+The product: P5 Product quantity: 5
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+Input userId
+2
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+7
+The product: P1 Product quantity: 7
+Enter command:8 for help
+4
+Enter product id
+3
+How many would you like?
+7
+The product: P2 Product quantity: 7
+Enter command:8 for help
+4
+Enter product id
+7
+How many would you like?
+7
+The product: P4 Product quantity: 7
+Enter command:8 for help
+5
+The product: P1 Product quantity: 7
+The product: P2 Product quantity: 7
+The product: P4 Product quantity: 7
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+7
+Enter a number between 0 and 6 as explained below:
+0 to Exit
+
+1 to  add products
+2 to  show product waitlist
+3 to  add product shipment 
+4 to  become a salesclerk 
+5 to  logout
+6 for help
+Enter command:6 for help
+5
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+0
+Input user password
+3
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+4
+Enter product id
+1
+How many would you like?
+6
+The product: P1 Product quantity: 6
+Enter command:8 for help
+4
+Enter product id
+3
+How many would you like?
+6
+The product: P2 Product quantity: 6
+Enter command:8 for help
+4
+Enter product id
+9
+How many would you like?
+6
+The product: P5 Product quantity: 6
+Enter command:8 for help
+5
+The product: P1 Product quantity: 6
+The product: P2 Product quantity: 6
+The product: P5 Product quantity: 6
+Enter command:8 for help
+7
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+0
+Input user password
+2
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+The product: P1 Product quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+The product: P2 Product quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+The product: P4 Product quantity: 7
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 7 Price: 7.0
+Product: P2 Quantity: 7 Price: 14.0
+Product: P4 Quantity: 7 Price: 28.0
+Total Price: 49.00
+Enter command:8 for help
+7
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+1
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+3
+Client{First Name:'C1', Last Name:'C1lastname', Email:'c1@gmail.com', Client ID:'C1', Address:'123 3rd Street Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Client{First Name:'C2', Last Name:'C2lastname', Email:'C2@gmail.com', Client ID:'C2', Address:'2148 5th st Avon, MN', Phone Number:'3248578899', Balance:'-49.0'}
+Client{First Name:'C3', Last Name:'C3lastname', Email:'C3@outlook.com', Client ID:'C3', Address:'43 Hwy 5, St.Joe, MN', Phone Number:'2395887580', Balance:'0.0'}
+Client{First Name:'C4', Last Name:'C4lastname', Email:'c4@gmail.com', Client ID:'C4', Address:'3579 6th ave St. Cloud, MN', Phone Number:'4358975588', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5lastname', Email:'c5@stcloudstate.edu', Client ID:'C5', Address:'234 5th ave Avon, MN', Phone Number:'0987654321', Balance:'0.0'}
+
+  There are no more clients 
+
+Enter command:8 for help
+6
+Input userId
+3
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  show deatils
+2 to  all products
+3 to  list Transactions 
+4 to  add item to wishlist
+5 to  show wishlist
+6 to  place order
+7 to  logout
+8 for help
+Enter command:8 for help
+6
+The product: P1 Product quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+The product: P2 Product quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+The product: P5 Product quantity: 6
+Add Item to Order as is? (Y|y)[es] or anything else for no
+y
+Order Invoice:
+Product: P1 Quantity: 3 Price: 3.0
+Product: P2 Quantity: 6 Price: 12.0
+Product: P5 Quantity: 6 Price: 30.0
+Total Price: 45.00
+Enter command:8 for help
+7
+Enter a number between 0 and 8 as explained below:
+0 to Exit
+
+1 to  add client
+2 to  list all products
+3 to  list all clients
+4 to  list clients with outstanding balance
+5 to  add payment to client
+6 to  become client
+7 to  logout
+8 for help
+Enter command:8 for help
+3
+Client{First Name:'C1', Last Name:'C1lastname', Email:'c1@gmail.com', Client ID:'C1', Address:'123 3rd Street Avon, MN', Phone Number:'1234567890', Balance:'0.0'}
+Client{First Name:'C2', Last Name:'C2lastname', Email:'C2@gmail.com', Client ID:'C2', Address:'2148 5th st Avon, MN', Phone Number:'3248578899', Balance:'-49.0'}
+Client{First Name:'C3', Last Name:'C3lastname', Email:'C3@outlook.com', Client ID:'C3', Address:'43 Hwy 5, St.Joe, MN', Phone Number:'2395887580', Balance:'-45.0'}
+Client{First Name:'C4', Last Name:'C4lastname', Email:'c4@gmail.com', Client ID:'C4', Address:'3579 6th ave St. Cloud, MN', Phone Number:'4358975588', Balance:'0.0'}
+Client{First Name:'C5', Last Name:'C5lastname', Email:'c5@stcloudstate.edu', Client ID:'C5', Address:'234 5th ave Avon, MN', Phone Number:'0987654321', Balance:'0.0'}
+
+  There are no more clients 
+
+Enter command:8 for help
+4
+Client{First Name:'C2', Last Name:'C2lastname', Email:'C2@gmail.com', Client ID:'C2', Address:'2148 5th st Avon, MN', Phone Number:'3248578899', Balance:'-49.0'}
+Client{First Name:'C3', Last Name:'C3lastname', Email:'C3@outlook.com', Client ID:'C3', Address:'43 Hwy 5, St.Joe, MN', Phone Number:'2395887580', Balance:'-45.0'}
+
+  There are no more clients 
+
+Enter command:8 for help
+7
+Please enter state to login too: (0 for client, 1 for clerk, 2 for manager)
+^C[0;32m@abby-973 [1;31m➜ [1;34m/workspaces/project-2-abby-973/WarehouseFSMAbby [0;36m([1;31mmain[0;36m) [0m$ exit
+exit
+
+Script done on 2024-11-19 01:30:43+00:00 [COMMAND_EXIT_CODE="130"]
